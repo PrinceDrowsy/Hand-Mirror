@@ -1,0 +1,446 @@
+{
+  "formatVersion": 4,
+  "name": "HiddenParts",
+  "version": "0.1.0",
+  "author": "PrinceDrowsy",
+  "description": "Unlocks the pupils, eyebrows, eyelines and jaws the game ships but doesn't offer in the creator. Pupils 20 and 21 show blank eyes, since their meshes aren't in the game's mesh list.",
+  "priority": 1000,
+  "edits": [],
+  "textEdits": [],
+  "addedRows": [
+    {
+      "table": "Avatar/PupilParts",
+      "key": "17",
+      "from": "16",
+      "fields": {
+        "ID": "17"
+      }
+    },
+    {
+      "table": "Other/DT_Pupil",
+      "key": "16",
+      "from": "0",
+      "fields": {
+        "ID": "17"
+      }
+    },
+    {
+      "table": "Avatar/PupilParts",
+      "key": "18",
+      "from": "16",
+      "fields": {
+        "ID": "18"
+      }
+    },
+    {
+      "table": "Other/DT_Pupil",
+      "key": "17",
+      "from": "0",
+      "fields": {
+        "ID": "18"
+      }
+    },
+    {
+      "table": "Avatar/PupilParts",
+      "key": "19",
+      "from": "16",
+      "fields": {
+        "ID": "19"
+      }
+    },
+    {
+      "table": "Other/DT_Pupil",
+      "key": "18",
+      "from": "0",
+      "fields": {
+        "ID": "19"
+      }
+    },
+    {
+      "table": "Avatar/PupilParts",
+      "key": "20",
+      "from": "16",
+      "fields": {
+        "ID": "20"
+      }
+    },
+    {
+      "table": "Other/DT_Pupil",
+      "key": "19",
+      "from": "0",
+      "fields": {
+        "ID": "20"
+      }
+    },
+    {
+      "table": "Avatar/PupilParts",
+      "key": "21",
+      "from": "16",
+      "fields": {
+        "ID": "21"
+      }
+    },
+    {
+      "table": "Other/DT_Pupil",
+      "key": "20",
+      "from": "0",
+      "fields": {
+        "ID": "21"
+      }
+    },
+    {
+      "table": "Avatar/PupilParts",
+      "key": "22",
+      "from": "16",
+      "fields": {
+        "ID": "22"
+      }
+    },
+    {
+      "table": "Other/DT_Pupil",
+      "key": "21",
+      "from": "0",
+      "fields": {
+        "ID": "22"
+      }
+    },
+    {
+      "table": "Avatar/EyebrowParts",
+      "key": "13",
+      "from": "29",
+      "fields": {
+        "ID": "13"
+      }
+    },
+    {
+      "table": "Other/DT_Eyebrow",
+      "key": "21",
+      "from": "0",
+      "fields": {
+        "ID": "13"
+      }
+    },
+    {
+      "table": "Avatar/EyebrowParts",
+      "key": "17",
+      "from": "29",
+      "fields": {
+        "ID": "17"
+      }
+    },
+    {
+      "table": "Other/DT_Eyebrow",
+      "key": "22",
+      "from": "0",
+      "fields": {
+        "ID": "17"
+      }
+    },
+    {
+      "table": "Avatar/EyebrowParts",
+      "key": "19",
+      "from": "29",
+      "fields": {
+        "ID": "19"
+      }
+    },
+    {
+      "table": "Other/DT_Eyebrow",
+      "key": "23",
+      "from": "0",
+      "fields": {
+        "ID": "19"
+      }
+    },
+    {
+      "table": "Avatar/EyebrowParts",
+      "key": "20",
+      "from": "29",
+      "fields": {
+        "ID": "20"
+      }
+    },
+    {
+      "table": "Other/DT_Eyebrow",
+      "key": "24",
+      "from": "0",
+      "fields": {
+        "ID": "20"
+      }
+    },
+    {
+      "table": "Avatar/EyebrowParts",
+      "key": "23",
+      "from": "29",
+      "fields": {
+        "ID": "23"
+      }
+    },
+    {
+      "table": "Other/DT_Eyebrow",
+      "key": "25",
+      "from": "0",
+      "fields": {
+        "ID": "23"
+      }
+    },
+    {
+      "table": "Avatar/EyebrowParts",
+      "key": "24",
+      "from": "29",
+      "fields": {
+        "ID": "24"
+      }
+    },
+    {
+      "table": "Other/DT_Eyebrow",
+      "key": "26",
+      "from": "0",
+      "fields": {
+        "ID": "24"
+      }
+    },
+    {
+      "table": "Avatar/EyebrowParts",
+      "key": "25",
+      "from": "29",
+      "fields": {
+        "ID": "25"
+      }
+    },
+    {
+      "table": "Other/DT_Eyebrow",
+      "key": "27",
+      "from": "0",
+      "fields": {
+        "ID": "25"
+      }
+    },
+    {
+      "table": "Avatar/EyebrowParts",
+      "key": "26",
+      "from": "29",
+      "fields": {
+        "ID": "26"
+      }
+    },
+    {
+      "table": "Other/DT_Eyebrow",
+      "key": "28",
+      "from": "0",
+      "fields": {
+        "ID": "26"
+      }
+    },
+    {
+      "table": "Avatar/EyelineParts",
+      "key": "5",
+      "from": "34",
+      "fields": {
+        "ID": "5"
+      }
+    },
+    {
+      "table": "Other/DT_Eyeline",
+      "key": "25",
+      "from": "0",
+      "fields": {
+        "ID": "5"
+      }
+    },
+    {
+      "table": "Avatar/EyelineParts",
+      "key": "12",
+      "from": "34",
+      "fields": {
+        "ID": "12"
+      }
+    },
+    {
+      "table": "Other/DT_Eyeline",
+      "key": "26",
+      "from": "0",
+      "fields": {
+        "ID": "12"
+      }
+    },
+    {
+      "table": "Avatar/EyelineParts",
+      "key": "18",
+      "from": "34",
+      "fields": {
+        "ID": "18"
+      }
+    },
+    {
+      "table": "Other/DT_Eyeline",
+      "key": "27",
+      "from": "0",
+      "fields": {
+        "ID": "18"
+      }
+    },
+    {
+      "table": "Avatar/EyelineParts",
+      "key": "21",
+      "from": "34",
+      "fields": {
+        "ID": "21"
+      }
+    },
+    {
+      "table": "Other/DT_Eyeline",
+      "key": "28",
+      "from": "0",
+      "fields": {
+        "ID": "21"
+      }
+    },
+    {
+      "table": "Avatar/EyelineParts",
+      "key": "25",
+      "from": "34",
+      "fields": {
+        "ID": "25"
+      }
+    },
+    {
+      "table": "Other/DT_Eyeline",
+      "key": "29",
+      "from": "0",
+      "fields": {
+        "ID": "25"
+      }
+    },
+    {
+      "table": "Avatar/EyelineParts",
+      "key": "26",
+      "from": "34",
+      "fields": {
+        "ID": "26"
+      }
+    },
+    {
+      "table": "Other/DT_Eyeline",
+      "key": "30",
+      "from": "0",
+      "fields": {
+        "ID": "26"
+      }
+    },
+    {
+      "table": "Avatar/EyelineParts",
+      "key": "30",
+      "from": "34",
+      "fields": {
+        "ID": "30"
+      }
+    },
+    {
+      "table": "Other/DT_Eyeline",
+      "key": "31",
+      "from": "0",
+      "fields": {
+        "ID": "30"
+      }
+    },
+    {
+      "table": "Avatar/EyelineParts",
+      "key": "31",
+      "from": "34",
+      "fields": {
+        "ID": "31"
+      }
+    },
+    {
+      "table": "Other/DT_Eyeline",
+      "key": "32",
+      "from": "0",
+      "fields": {
+        "ID": "31"
+      }
+    },
+    {
+      "table": "Avatar/EyelineParts",
+      "key": "32",
+      "from": "34",
+      "fields": {
+        "ID": "32"
+      }
+    },
+    {
+      "table": "Other/DT_Eyeline",
+      "key": "33",
+      "from": "0",
+      "fields": {
+        "ID": "32"
+      }
+    },
+    {
+      "table": "Avatar/JawParts",
+      "key": "26",
+      "from": "38",
+      "fields": {
+        "ID": "26"
+      }
+    },
+    {
+      "table": "Other/DT_Jaw",
+      "key": "34",
+      "from": "0",
+      "fields": {
+        "ID": "26"
+      }
+    },
+    {
+      "table": "Avatar/JawParts",
+      "key": "27",
+      "from": "38",
+      "fields": {
+        "ID": "27"
+      }
+    },
+    {
+      "table": "Other/DT_Jaw",
+      "key": "35",
+      "from": "0",
+      "fields": {
+        "ID": "27"
+      }
+    },
+    {
+      "table": "Avatar/JawParts",
+      "key": "28",
+      "from": "38",
+      "fields": {
+        "ID": "28"
+      }
+    },
+    {
+      "table": "Other/DT_Jaw",
+      "key": "36",
+      "from": "0",
+      "fields": {
+        "ID": "28"
+      }
+    },
+    {
+      "table": "Avatar/JawParts",
+      "key": "29",
+      "from": "38",
+      "fields": {
+        "ID": "29"
+      }
+    },
+    {
+      "table": "Other/DT_Jaw",
+      "key": "37",
+      "from": "0",
+      "fields": {
+        "ID": "29"
+      }
+    }
+  ],
+  "addedText": [],
+  "addedAssets": []
+}

@@ -1,0 +1,70 @@
+{
+  "formatVersion": 7,
+  "name": "NewParts",
+  "version": "1.0.0",
+  "author": "PrinceDrowsy",
+  "description": "Adds pupil 30 (a copy of pupil 3) and eyebrow 30 (a copy of eyebrow 2) as new creator options, made with Cardinal's new part template.",
+  "priority": 1000,
+  "edits": [],
+  "textEdits": [],
+  "addedRows": [
+    {
+      "table": "Avatar/PupilParts",
+      "key": "30",
+      "from": "3",
+      "fields": {
+        "ID": "30"
+      }
+    },
+    {
+      "table": "Other/DT_Pupil",
+      "key": "16",
+      "from": "3",
+      "fields": {
+        "ID": "30"
+      }
+    },
+    {
+      "table": "Avatar/EyebrowParts",
+      "key": "30",
+      "from": "2",
+      "fields": {
+        "ID": "30"
+      }
+    },
+    {
+      "table": "Other/DT_Eyebrow",
+      "key": "21",
+      "from": "2",
+      "fields": {
+        "ID": "30"
+      }
+    }
+  ],
+  "addedText": [],
+  "addedAssets": [
+    {
+      "from": "/Game/ROD/CHR/Humans/Heads/PUP/SK_CHR_PUP003",
+      "package": "/Game/ROD/CHR/Humans/Heads/PUP/SK_CHR_PUP030"
+    },
+    {
+      "from": "/Game/ROD/CHR/Humans/Heads/EYB/SK_CHR_EYB002",
+      "package": "/Game/ROD/CHR/Humans/Heads/EYB/SK_CHR_EYB030"
+    }
+  ],
+  "nodeChanges": [],
+  "addedNodes": [],
+  "nodeRules": [],
+  "addedListItems": [
+    {
+      "asset": "/Game/ROD/DataAssets/AvatarParts/Heads/AvatarMesh_Pupil",
+      "field": "AvatarMeshes",
+      "value": "/Game/ROD/CHR/Humans/Heads/PUP/SK_CHR_PUP030"
+    },
+    {
+      "asset": "/Game/ROD/DataAssets/AvatarParts/Heads/AvatarMesh_Eyebrows",
+      "field": "AvatarMeshes",
+      "value": "/Game/ROD/CHR/Humans/Heads/EYB/SK_CHR_EYB030"
+    }
+  ]
+}
